@@ -3,7 +3,7 @@ Watch read and practice from the module: Switch Statements, While Loops  Write y
 
 /* 1
 Comment
-
+The "structure" of the example is based on the textbook. The "cardNumber" subject has been replaced with "smoothieDrink" for this assignment.
 
 Example
 static void Start (int smoothieDrink)
@@ -29,10 +29,33 @@ static void Start (int smoothieDrink)
 
 /* 2
 Comment
-
+The "structure" of the example is based on the Unity Tutorial. The "intelligence" subject has been replaced with "smoothieDrink" for this assignment.
 
 Example
+public class Smoothies : MonoBehaviour
+{
+    public int smoothieDrink = 3;
 
+
+    void Start()
+    {
+        switch (smoothieDrink)
+        {
+            case 3:
+                print ("A healthy smoothie that contains a lot of Vitamin C!");
+                break;
+            case 2:
+                print ("A healthy smoothie that's really... leafy... it's still tastes good!");
+                break;
+            case 1:
+                print ("A healthy smoothie tha-- wait, this is just chunks of meat in a glass of water! Where's the Manager?!");
+                break;
+            default:
+                print ("No Smoothie today.");
+                break;
+        }
+    }
+}
 
 */
 
