@@ -3,7 +3,7 @@ Watch read and practice from the module: Switch Statements, While Loops  Write y
 
 /* 1
 Comment
-The "structure" of the example is based on the textbook. The "cardNumber" subject has been replaced with "smoothieDrink" for this assignment.
+The "structure" of the example is based on the book (page 56). The "cardNumber" subject has been replaced with "smoothieDrink" for this assignment.
 
 Example
 static void Start (int smoothieDrink)
@@ -61,10 +61,20 @@ public class Smoothies : MonoBehaviour
 
 /* 3
 Comment
-
+Another example based on the book (page 58)- "When more than one value should execute the same code, you can list the common cases sequentially:"
 
 Example
-
+switch (smoothieDrink)
+{
+    Case 3:
+    Case 2:
+    Case 1:
+        Console.Writeline ("Meat Smoothie");
+        break;
+    Default:
+        Console.Writeline ("No Smoothie");
+        break;
+}
 
 */
 
