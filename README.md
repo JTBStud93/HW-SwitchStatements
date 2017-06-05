@@ -2,10 +2,8 @@
 Watch read and practice from the module: Switch Statements, While Loops  Write your understanding of the topic using comments and examples (at least 10 examples) to the instructor and describe them in your own words to the best of your knowledge. Put your work to GIT. Submit the GIT url to canvas. 
 
 /* 1
-Comment
-The "structure" of the example is based on the book (page 56). The "cardNumber" subject has been replaced with "smoothieDrink" for this assignment.
+The purpose of Switch Statements is that it looks for variables, and it's a lot more faster than if-else statements. It's reccommended (by Preston Powel) that it should only be use if the script becomes complicated. The "structure" of the example is based on the book (page 56). The "cardNumber" subject has been replaced with "smoothieDrink" for this assignment.
 
-Example
 static void Start (int smoothieDrink)
 {
     switch (smoothieDrink)
@@ -28,10 +26,8 @@ static void Start (int smoothieDrink)
 */
 
 /* 2
-Comment
-The "structure" of the example is based on the Unity Tutorial. The "intelligence" subject has been replaced with "smoothieDrink" for this assignment.
+In the next example below, we can see that the "int smoothieDrink" is assigned to the number 3, and it matches with case 3. Therefore case 3 is the result of this switch statement. The "structure" of the example is based on the Unity Tutorial. The "intelligence" subject has been replaced with "smoothieDrink" for this assignment. RESULT: "A healthy smoothie that contains a lot of Vitamin C!"
 
-Example
 public class Smoothies : MonoBehaviour
 {
     public int smoothieDrink = 3;
@@ -60,10 +56,8 @@ public class Smoothies : MonoBehaviour
 */
 
 /* 3
-Comment
-In this example, cases 3 & 2 do NOT have any breaks. So this will show that it finds the Fruit Smoothie, then it'll find the Veggie Smoothie, then it will stop after it finds the Meat Smoothie.
+In this example, cases 3 & 2 do NOT have any breaks. So this will show that it finds the Fruit Smoothie, then it'll find the Veggie Smoothie, then it will stop after it finds the Meat Smoothie. RESULT: Fruit Smoothie, Veggie Smoothie, & Meat Smoothie.
 
-Example
 switch (int smoothieDrink)
 {
     case 3 "smoothieDrink":
@@ -81,15 +75,13 @@ switch (int smoothieDrink)
 */
 
 /* 4
-Comment
+Somewhat similar to the if-else statements, we see that "key" is assigned to "Gold". If the "Gold" case is selected, then this script is true. RESULT: "Gold Door is now unlocked."
 
-
-Example
 class main ()
 {
     int key = Gold;
 
-    switch (Gold = True)
+    switch (Gold == True)
     {
         case "Gold":
             print ("Gold Door is now unlocked.");
@@ -106,10 +98,8 @@ class main ()
 */
 
 /* 5
-Comment
+An example from Preston in today's class (6/5/2017)... from memory... RESULT: "Old Ben?"
 
-
-Example
 public string jedi = "Luke"
 
 {
@@ -133,10 +123,8 @@ public string jedi = "Luke"
 */
 
 /* 6
-Comment
+Similar to #2, the int primaryWeapon is set to "1." So it won't pick case 3 or 2, but it will pick case 1. RESULT: "Staff - Basic magic based weapon... Awesome!"
 
-
-Example
 public class Weapons : MonoBehaviour
 {
     public int primaryWeapon = 1;
@@ -165,13 +153,11 @@ public class Weapons : MonoBehaviour
 */
 
 /* 7
-Comment
+Similar to #2, but the "int dialogueZelda" is assigned to "4", and "case 4" is not present. RESULT: "I AM ERROR."
 
-
-Example
 public class Dialogue : MonoBehaviour
 {
-    public int dialogueZelda = 3;
+    public int dialogueZelda = 4;
 
 
     void Start()
@@ -197,10 +183,8 @@ public class Dialogue : MonoBehaviour
 */
 
 /* 8
-Comment
+Similar to #5. RESULT: "D'oh!"
 
-
-Example
 public string Simpsons = "Homer"
 
 {
@@ -224,10 +208,8 @@ public string Simpsons = "Homer"
 */
 
 /* 9
-Comment
+Similar to #2, but the "int youRather" is assigned to "2" RESULT: "Sit on the couch face-first."
 
-
-Example
 public class WouldYouRather : MonoBehaviour
 {
     public int youRather = 2;
@@ -256,14 +238,12 @@ public class WouldYouRather : MonoBehaviour
 */
 
 /* 10
-Comment
+Similar to #4. "Night In The Woods" is an indie slice-of-life game (Made with Unity! https://madewith.unity.com/en/games/night-in-the-woods). Highly reccommended! :) RESULT: "Crimes."
 
-
-Example
 public class NightInTheWoods : MonoBehaviour
 class main ()
 {
-    int nitwEnding = Gregg;
+    int nitwFriend = Gregg;
 
     switch (Gregg = True)
     {
