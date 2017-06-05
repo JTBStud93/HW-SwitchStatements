@@ -260,28 +260,24 @@ Comment
 
 
 Example
-public class Smoothies : MonoBehaviour
+public class NightInTheWoods : MonoBehaviour
+class main ()
 {
-    public int smoothieDrink = 3;
+    int nitwEnding = Gregg;
 
-
-    void Start()
+    switch (Gregg = True)
     {
-        switch (smoothieDrink)
-        {
-            case 3:
-                print ("A healthy smoothie that contains a lot of Vitamin C!");
-                break;
-            case 2:
-                print ("A healthy smoothie that's really... leafy... it's still tastes good!");
-                break;
-            case 1:
-                print ("A healthy smoothie tha-- wait, this is just chunks of meat in a glass of water! Where's the Manager?!");
-                break;
-            default:
-                print ("No Smoothie today.");
-                break;
-        }
+        case "Gregg":
+            print ("Crimes.");
+            break;
+        case "Bea":
+            print ("Proximity.");
+            break;
+        case "Angus":
+            print ("Constellations.")
+        default:
+            print ("Skip band practice.");
+            break;
     }
 }
 
