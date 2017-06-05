@@ -111,6 +111,7 @@ Comment
 
 Example
 public string jedi = "Luke"
+
 {
     switch ("Luke")
     {
@@ -136,7 +137,30 @@ Comment
 
 
 Example
+public class Weapons : MonoBehaviour
+{
+    public int primaryWeapon = 3;
 
+
+    void Start()
+    {
+        switch (primaryWeapon)
+        {
+            case 3:
+                print ("Sword - Basic melee based weapon.");
+                break;
+            case 2:
+                print ("Archer - Basic range based weapon.");
+                break;
+            case 1:
+                print ("Staff - Basic magic based weapon... Awesome!");
+                break;
+            default:
+                print ("Wimpy fist fights.");
+                break;
+        }
+    }
+}
 
 */
 
@@ -145,7 +169,30 @@ Comment
 
 
 Example
+public class Dialogue : MonoBehaviour
+{
+    public int dialogueZelda = 3;
 
+
+    void Start()
+    {
+        switch (dialogueZelda)
+        {
+            case 3:
+                print ("It's dangerous to go alone, take this!");
+                break;
+            case 2:
+                print ("It's a secret to everybody.");
+                break;
+            case 1:
+                print ("HEY! LISTEN! WATCH OUT! LOOK! HELLO?! HEY!");
+                break;
+            default:
+                print ("I AM ERROR.");
+                break;
+        }
+    }
+}
 
 */
 
@@ -154,7 +201,25 @@ Comment
 
 
 Example
+public string Simpsons = "Homer"
 
+{
+    switch ("Homer")
+    {
+        case "Homer":
+            print ("D'oh!");
+            break;
+        case "Bart":
+            print ("Aye Carumba!");
+            break;
+        case "DrNick":
+            print ("Hi Everybody!");
+            break;
+        case "MrBurns":
+            print ("Excellent...");
+            break;
+    }
+}
 
 */
 
@@ -163,7 +228,30 @@ Comment
 
 
 Example
+public class Smoothies : MonoBehaviour
+{
+    public int smoothieDrink = 3;
 
+
+    void Start()
+    {
+        switch (smoothieDrink)
+        {
+            case 3:
+                print ("A healthy smoothie that contains a lot of Vitamin C!");
+                break;
+            case 2:
+                print ("A healthy smoothie that's really... leafy... it's still tastes good!");
+                break;
+            case 1:
+                print ("A healthy smoothie tha-- wait, this is just chunks of meat in a glass of water! Where's the Manager?!");
+                break;
+            default:
+                print ("No Smoothie today.");
+                break;
+        }
+    }
+}
 
 */
 
@@ -172,6 +260,29 @@ Comment
 
 
 Example
+public class Smoothies : MonoBehaviour
+{
+    public int smoothieDrink = 3;
 
+
+    void Start()
+    {
+        switch (smoothieDrink)
+        {
+            case 3:
+                print ("A healthy smoothie that contains a lot of Vitamin C!");
+                break;
+            case 2:
+                print ("A healthy smoothie that's really... leafy... it's still tastes good!");
+                break;
+            case 1:
+                print ("A healthy smoothie tha-- wait, this is just chunks of meat in a glass of water! Where's the Manager?!");
+                break;
+            default:
+                print ("No Smoothie today.");
+                break;
+        }
+    }
+}
 
 */
