@@ -61,18 +61,20 @@ public class Smoothies : MonoBehaviour
 
 /* 3
 Comment
-Another example based on the book (page 58)- "When more than one value should execute the same code, you can list the common cases sequentially:"
+In this example, cases 3 & 2 do NOT have any breaks. So this will show that it finds the Fruit Smoothie, then it'll find the Veggie Smoothie, then it will stop after it finds the Meat Smoothie.
 
 Example
-switch (smoothieDrink)
+switch (int smoothieDrink)
 {
-    Case 3:
-    Case 2:
-    Case 1:
-        Console.Writeline ("Meat Smoothie");
+    case 3 "smoothieDrink":
+        print ("Fruit" + smoothieDrink);
+    case 2 "smoothieDrink":
+        print ("Veggie" + smoothieDrink);
+    case 1 "smoothieDrink":
+        print ("Meat" + smoothieDrink);
         break;
-    Default:
-        Console.Writeline ("No Smoothie");
+    default:
+        print ("No Smoothie.")
         break;
 }
 
@@ -83,7 +85,23 @@ Comment
 
 
 Example
+class main ()
+{
+    int key = Gold;
 
+    switch (Gold = True)
+    {
+        case "Gold":
+            print ("Gold Door is now unlocked.");
+            break;
+        case "Silver":
+            print ("Can't use the Gold Key on the Silver Door.");
+            break;
+        default:
+            print ("Can't use item here.");
+            break;
+    }
+}
 
 */
 
@@ -92,7 +110,24 @@ Comment
 
 
 Example
-
+public string jedi = "Luke"
+{
+    switch ("Luke")
+    {
+        case "Luke":
+            print ("Old Ben?");
+            break;
+        case "ObiWan":
+            print ("Now that's a name I've not heard in a long, long time.");
+            break;
+        case "HanSolo":
+            print ("I know.");
+            break;
+        case "Yoda":
+            print ("There is another.");
+            break;
+    }
+}
 
 */
 
