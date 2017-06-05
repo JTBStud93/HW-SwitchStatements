@@ -139,7 +139,7 @@ Comment
 Example
 public class Weapons : MonoBehaviour
 {
-    public int primaryWeapon = 3;
+    public int primaryWeapon = 1;
 
 
     void Start()
@@ -228,26 +228,26 @@ Comment
 
 
 Example
-public class Smoothies : MonoBehaviour
+public class WouldYouRather : MonoBehaviour
 {
-    public int smoothieDrink = 3;
+    public int youRather = 2;
 
 
     void Start()
     {
-        switch (smoothieDrink)
+        switch (youRather)
         {
             case 3:
-                print ("A healthy smoothie that contains a lot of Vitamin C!");
+                print ("Sit on a lidless barrel with radioactive liquid.");
                 break;
             case 2:
-                print ("A healthy smoothie that's really... leafy... it's still tastes good!");
+                print ("Sit on the couch face-first.");
                 break;
             case 1:
-                print ("A healthy smoothie tha-- wait, this is just chunks of meat in a glass of water! Where's the Manager?!");
+                print ("Sit on a lidless barrel with radioactive liquid, face-first, who knows? Maybe you'll get superpowers and not cancer!");
                 break;
             default:
-                print ("No Smoothie today.");
+                print ("Not sit anywhere for the rest of your life.");
                 break;
         }
     }
